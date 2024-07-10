@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+}
+.conteiner{
+    width: 1200px;
+    height: 774px;
+    margin: 0 auto;
+}
+.topsell_page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1136px;
+    height: 646px;
+}
+.name{
+    color: #111;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+}
+.name span{
+    color: #FD9222;
+}
+.image_conteiner{
+    display: flex;
+    justify-content: space-between;
+    height: 464px;
+    width: 1136px;
+}
+#topsellimg{
+    width: 368px;
+    height: 464px;  
+}
+.text-but{
+    display: flex;
+    width: 1136px;
+    height: 72px;
+    gap: 567px;
+}
+.topsell_text{
+    width: 407px;
+    height: 72px;
+    color: #111;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+}
+.topsell_dut{
+    width: 162px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #FD9222;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
